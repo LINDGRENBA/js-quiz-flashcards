@@ -10,7 +10,7 @@ describe('Quiz & Questions', () => {
     let text = "Hi";
     let choiceArray = ["A", "B", "C", "D"];
     let answer = "A"
-    const quesitons = new Questions(text, choices, answer);
-    expect(question).toMatchObject({text: "Hi", choices: choiceArray, answer: "A"})
+    const questions = new Questions(text, choiceArray, answer);
+    expect(questions).toMatchObject({text: "Hi", choices: choiceArray, answer: "A"});
   });
 });
