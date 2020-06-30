@@ -6,7 +6,7 @@ export class Quiz {
   }
 }
 
-export class Questions {
+export class Question {
   constructor(text, choices, answer) {
   this.text = text;
   this.choices = choices;
@@ -20,5 +20,18 @@ export class Questions {
   }
 
 }
+
+// questions = [
+//   { //questions
+//     text: 
+//     choices: [],
+//     answer:
+//   },
+//   { //questions
+//     text:
+//     choices: []
+//     answer:
+//   }
+// ]
 
 
