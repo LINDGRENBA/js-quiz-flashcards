@@ -40,7 +40,7 @@ Test your JavaScript knowledge with these flash cards!
 | Behavior | Input | Output |  Completed(Y/N?)  | 
 | -------- | ----- | ------ | -------- |
 | Program makes a quiz object     |    n/a   |   new Quiz{question objects}     |    Y     |
-| Program makes a question object |    n/a   |   new Question{text: , answer: [ ], answer:  } |   N   |
+| Program makes a question object |    n/a   |   new Question{text: , answer: [ ], answer:  } |   Y   |
 | Program will check user answers |   user selects correct answer   |    true   |   N   |
 | Program will add points for correct answers or subract points for incorect answers |   User gets first answer correct    |   user total += 1   |   N   |
 | If timer expires and no questions are anwered no points are added or subtracted and Program moves to next question |   n/a    |    next question   |   N   |

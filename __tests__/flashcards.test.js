@@ -13,4 +13,9 @@ describe('Quiz & Questions', () => {
     const questions = new Questions(text, choiceArray, answer);
     expect(questions).toMatchObject({text: "Hi", choices: choiceArray, answer: "A"});
   });
+  test('should check that user selects correct answer', () => {
+    let userSelected = "A";
+    const questions = new Questions("Hi", ["A", "B", "C", "D"], "A");
+    expect(questions.checkAnswer(userSelected, questions)).toEqual(true);
+  });
 });

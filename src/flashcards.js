@@ -12,7 +12,13 @@ export class Questions {
   this.choices = choices;
   this.answer = answer;
   }
-}
 
+  checkAnswer(userSelected, questions) {
+    // if(userSelected === this.answer) {
+    //   return true;
+    // }
+  }
+
+}
 
 
