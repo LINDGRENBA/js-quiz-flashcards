@@ -1,12 +1,12 @@
-# PROJEC NAME
+# Flashcards
 
-#### SHORT DESCRIPTION project for Epicodus, 00.00.0000
+#### SHORT DESCRIPTION project for Epicodus, 06.30.2020
 
-## By Brittany Lindgren
+## By Brittany Lindgren, Chris Yoon & Erich Richter
 
 ## Description
 
-ELEVATOR PITCH HERE
+Test your JavaScript knowledge with these flash cards!
 
 ## Setup/Installation Requirements
 
@@ -39,7 +39,15 @@ ELEVATOR PITCH HERE
 
 | Behavior | Input | Output |  Completed(Y/N?)  | 
 | -------- | ----- | ------ | -------- |
-|          |       |        |          |
+| Program makes a quiz object     |    n/a   |   new Quiz{question objects}     |    N     |
+| Program makes a question object |    n/a   |   new Question{text: , answer: [ ], answer:  } |   N   |
+| Program will check user answers |   user selects correct answer   |    true   |   N   |
+| Program will add points for correct answers or subract points for incorect answers |   User gets first answer correct    |   user total += 1   |   N   |
+| If timer expires and no questions are anwered no points are added or subtracted and Program moves to next question |   n/a    |    next question   |   N   |
+| Program will check to see if timer is expired |   is expired?    |   true or false    |   N   |
+| Program will move to next question |   n/a    |       |   N   |
+| After quiz is completed final results are displayed|   user gets 4 out of 5 questions   |   4/5   |   N   |
+| After quiz is completed an option to start over will appear|   button(start over)   | Program starts over  |   N   |
 
 ## Known Bugs
 
@@ -69,4 +77,4 @@ Please feel free to contact me through GitHub (username: LINDGRENBA) with any qu
 
 *This site is licensed under the MIT license.*
 
-Copyright (c) 2020 **Brittany A Lindgren_**
+Copyright (c) 2020 **Brittany A Lindgren, Chris Yoon & Erich Richter_**
