@@ -14,9 +14,9 @@ export class Questions {
   }
 
   checkAnswer(userSelected, questions) {
-    // if(userSelected === this.answer) {
-    //   return true;
-    // }
+    if(userSelected === this.answer) {
+      return true;
+    }
   }
 
 }
